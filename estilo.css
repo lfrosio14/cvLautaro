@@ -1,9 +1,12 @@
 header{
-    height: 80px; 
-    width: 1850px;
-    flex-shrink: 0;
+    height: 5rem; 
+    width: 100%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-color: white;
+ 
+}
+main{
+    flex-wrap: wrap;
 }
 
 a{
@@ -13,107 +16,34 @@ a{
 a:visited{
     color: #0C106D;
 }
+nav{
+    display: flex;
+    justify-content: space-around; 
+    
+}
 .boton1{
-
-width: 128.01px;
-height: 50.06px;
-position: absolute;
-top: 0.24px;
-left: 60.97px;
-flex-shrink: 0;
 color: #0C106D;
-
 text-align: center;
 font-family: sans-serif;
-font-size: 32px;
+font-size: 2rem;
 font-style: normal;
-font-weight: 400;
 line-height: normal;
 text-decoration: none;
-}
-.boton2{
-box-sizing: border-box;
-width: 307.8px;
-height: 50.06px;
-position: absolute;
-top: 0.24px;
-left: 300px;
-flex-shrink: 0;
-
-color: #0C106D;
-text-align: center;
-font-family: sans-serif;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.boton3{
-box-sizing: border-box;
-width: 259.9px;
-height: 50.06px;
-position: absolute;
-top: 0.24px;
-left: 700px;
-flex-shrink: 0;
-
-color: #0C106D;
-text-align: center;
-font-family: sans-serif;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.boton4{
-width: 173.7px;
-height: 50.06px;
-position: absolute;
-top: 0.24px;
-left: 1100px; 
-
-color: #0C106D;
-text-align: center;
-font-family: sans-serif;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.boton5{
-width: 170.47px;
-height: 50.06px;
-position: absolute;
-top: 0.24px;
-left: 1450px;
-
-color: #0C106D;
-text-decoration: none;
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-font-family: sans-serif;
-
-}
-main{
-width: 1440px;
-height: 1024px;
-
+margin: 1rem 2rem 0rem 0rem;
 }
 .fondo{
-    background: url(IMG/fondo.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;    
+    background: url(IMG/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box
+
 }
 #lf{
-width: 666px;
-height: 107px;
-position: absolute;
-top: 196px;
-flex-shrink: 0;
+width: 41.625rem;
+height: 6.6875rem;
+margin-top: 10rem;
 
 color: #FFF;
 font-family: sans-serif;
@@ -121,51 +51,50 @@ font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
 #carrera{
-width: 564px;
-height: 236px;
-position: absolute;
+width: 35.25rem;
+height: 14.75rem;
+
 top: 394px;
-flex-shrink: 0;   
 
 color: #FFF;
 font-family: sans-serif;
-font-size: 64px;
+font-size: 4rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 body{
     background: #A8A8A8;
+    margin: 0;
 }
 #dp{
-    width: 546px;
-    height: 70px;
-position: absolute;
-    top: 180px;
-    left: 300px;
+    width: 34.125rem;
+    height: 4.375rem;
+
 
 color: #000;
 font-family: sans-serif;
-font-size: 64px;
+font-size: 4rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-left: 10rem;
 }
 .rec1{
-width: 720px;
-height: 684px;
-position: absolute;
-top: 214px;
-left: 900px;
-border-radius: 65px;
+    width: 50rem;
+    height: 42.75rem;
+border-radius:  4.0625rem;
 border: 3px solid #000;
 background: #0C106D;
 
+float: left;
+margin-left: 20rem;
 color: #FFF;
 font-family: sans-serif;
-font-size: 40px;
+font-size: 2.5rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -174,110 +103,114 @@ line-height: normal;
 .circ1{
 box-sizing: border-box;
 border-radius: 50%;
-width: 500px;
-height: 500px;
-position: absolute;
-top: 316px;
-left: 300px;
+width: 31.25rem;
+height: 31.25rem;
 background: url(IMG/cara.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 border: solid 3px;
+float: left;
+margin-left: 10rem;
 }
+
 .co{
-width: 546px;
-height: 70px;
-font-family: sans-serif;
-position: absolute;
-top: 60px;
-left: 700px;
-    
+width: 34.125rem;
+height: 4.375rem;
+font-family: sans-serif;   
 color: #000;
-font-size: 64px;
-font-style: normal;
+margin-top: 1rem;
+font-size: 4rem;
 font-weight: 400;
-line-height: normal;
+margin-left:43rem;
 }
 .rec2{
-    width: 1328px;
-    height: 750px;
-    flex-shrink: 0;
-    position: absolute;
-    Top: 210px;
-    Left: 36px;
-
-    border-radius: 65px;
+    width: 83rem;
+    height: 46.875rem;
+    border-radius: 4.0625rem;
     border: 3px solid #000;
     background: #0C106D;
     color: #FFF;
     font-family: sans-serif;
-font-size: 36px;
+font-size: 2.25rem;
 font-style: normal;
 font-weight: 350;
 line-height: normal;
-margin-left: 200px;
+margin-left:18rem;
+
+
+
 }
 .cerebro{
-width: 677px;
-height: 650px;
-flex-shrink: 0;
-position: absolute;
-Top:60px;
-Left: 600px;
-
-border-radius: 75px;
+width: 42.313rem;
+height: 40.625rem;
+border-radius: 4.6875rem;
 background: url(IMG/cerebro.avif), lightgray 50%;
 background-size: cover;
 background-repeat: no-repeat;
+margin-left: 37rem;
+box-sizing: border-box;
+margin-top: 3rem;
+float: inline-end;
 }
-#lp{
-    margin-right: 600px;
-    margin-left: 30px
+.items{
+    float: left;
 }
 li{
-    margin-left: 30px;
+    margin-left: 1.875rem;
+    margin-right: 50rem;
+    
 }
 h2{
-    margin-left: 30px;
+    margin-left: 1.875rem;
+    margin-right: 50rem;
+    
 }
-#le{
-    margin-right: 800px;
-}
-#so{
-    margin-right: 700px;   
-}
-.estudio{
-    width: 677px;
-height: 650px;
-flex-shrink: 0;
-position: absolute;
-Top:60px;
-Left: 630px;
 
-border-radius: 75px;
+
+#no{
+    margin-right: 0;
+}
+
+.estudio{
+    width: 39.1875rem;
+    height: 38.8125rem;
+ border-radius: 4.6875rem;
 background: url(IMG/estudio.avif), lightgray 50%;
 background-size:cover;
 background-repeat: no-repeat;
+float: inline-end;
+margin-left: 40rem;
+margin-top: 4rem;
 }
 .es{
-    width: 546px;
-height: 70px;
+
 font-family: sans-serif;
-position: absolute;
-top: 60px;
-left: 750px;
+margin-left:48.5rem;
+margin-top: 1rem;
+
+
     
 color: #000;
-font-size: 64px;
+font-size: 4rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.item2{
+    width: 90rem;
+    height: 36.01244rem;
+color: #FFF;
+font-family: sans-serif;
+font-size: 2.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+float: left;
 }
 .aptitudes{
     width: 677px;
     height: 650px;
     flex-shrink: 0;
-    position: absolute;
     Top:60px;
     Left: 630px;
     
@@ -285,9 +218,212 @@ line-height: normal;
     background: url(IMG/aptitudes.avif), lightgray 50%;
     background-size: contain;
     background-repeat: no-repeat;
+    float: inline-end;
+    margin-left: 40rem;
+    margin-top: 3rem;
+    
 }
-#con{
-    margin-right: 600px;
+
+#to{
+    margin-right: 45rem;
+}
+@media (max-width: 860px){
+    header{
+        width: 24.375rem;
+        height: 8.125rem;
+    }
+    nav{
+        flex-wrap: wrap;
+
+    }
+    .boton1{
+width: 4.5rem;
+ height: 3rem;
+color: #0C106D;
+text-align: center;
+font-family: sans-serif;
+font-size: 1.10rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+      .fondo{
+        width: 24.375rem;
+height: 55rem;
+      }
+      #lf{
+        width: 20.0625rem;
+        height: 2.9375rem;
+        color: #FFF;
+font-family: sans-serif;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 5rem;
+      }
+      #carrera{
+        width: 23.875rem;
+height: 8.5625rem;
+color: #FFF;
+font-family: sans-serif;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+      }
+      .circ1{
+        width: 13.25rem;
+        height: 13.25rem;
+        margin: 0;
+        float: none;
+        margin-top: 1rem;
+
+      }
+      .rec1{
+width: 22.9375rem;
+height: 26.375rem;
+color: #FFF;
+font-family: sans-serif;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+float: none;
+margin-left: 0.5rem;
+margin-top: 2rem;
+
+
+}
+
+      
+      #dp{
+width: 10.8125rem;
+height: 5.25rem;
+color: #000;
+font-family: sans-serif;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 14rem;
+margin-top: 5rem;
+float: left;
+      }
+
+      .co{
+        width: 15.0625rem;
+height: 2.4375rem;
+color: #000;
+font-family: sans-serif;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 5rem;
+margin-top: 0;
+margin-bottom: 0;
+      }
+      .rec2{
+        width: 24rem;
+        height: 41.4375rem;
+        border-radius: 4.0625rem;
+        border: 3px solid #000;
+        background: #0C106D;
+        color: #FFF;
+        font-family: sans-serif;
+        font-size: 1.625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+      }
+      .cerebro{
+        width: 22.25rem;
+        height: 17rem;
+        border-radius: 4.6875rem;
+        margin-left: 1rem;
+        margin-top: 0;
+        float: none;
+        
+      }
+      li{
+        margin-right: 1.5rem;
+      }
+      h2{
+        margin: 0;
+      }
+      .items{
+        width: 23.5625rem;
+        height: 20.8125rem;
+        float: none;
+        margin-right: 0;
+        color: #FFF;
+font-family: sans-serif;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 3rem;
+margin-left: 0.5rem;
+margin-bottom: 0;
+float: none;
+      }
+    
+      .item2{
+width: 23.0625rem;
+height: 19.9375rem;
+color: #FFF;
+font-family: sans-serif;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+float: none;
+margin-top: 2rem;
+margin-left: 1rem;
+      }
+      .estudio{
+width: 20rem;
+height: 19rem;
+float: none;
+margin-top: 0;
+margin-left:2rem;
+
+      }
+      .es{
+color: #000;
+font-family: sans-serif;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+
+margin-bottom: 0;
+margin-left: 8rem;
+
+
+      }
+      .aptitudes{
+        float: none;
+        margin-left: 1.3rem;
+        margin-top: 0.5rem;
+        width: 21.9375rem;
+height: 16.0625rem;
+
+      }
+#to{
+    margin-left: 0.5rem;
+    margin-right: 0;
+color: #FFF;
+font-family: sans-serif;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 }
 
 
